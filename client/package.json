@@ -1,0 +1,33 @@
+{
+  "name": "uncbccarpool",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ejs": "^2.6.1",
+    "google-maps-react": "^2.0.2",
+    "history": "^4.7.2",
+    "jquery": "^3.3.1",
+    "material-ui": "^0.20.0",
+    "moment": "^2.22.2",
+    "path": "^0.12.7",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-flexbox-grid": "^2.0.0",
+    "react-google-maps": "^9.4.5",
+    "react-jsx": "^1.0.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "reflux": "^6.4.1",
+    "sendgrid": "^5.2.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

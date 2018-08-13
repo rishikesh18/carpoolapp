@@ -1,62 +1,23 @@
-# Create React Express App
+Car Pool App
+*An app which helps to find ride offers or helps to create ride offers.
 
-## About This Boilerplate
+Features:
+*User Registration and log in
+*Creeate an ride offer
+*Request a ride
+*Delete posted ride offer
+*Cancel requested ride
 
-This setup allows for a monolithic Node/Express/React app which can be easily deployed to Heroku.
+Technology Used:
+*React
+*Express JS
+*Passport JS
+*Bootstrap
+*HTML/CSS
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
-
-## Starting the app locally
-
-Start by installing front and backend dependencies. While in this directory, run the following commands:
-
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
-
-After both installations complete, run the following command in your terminal:
-
-```
-yarn start
-```
-
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-### Create a Git Repo
-
-Once you're ready to deploy, start by making sure your project is a git repository. If so, proceed to the next section, otherwise run the following commands in your terminal:
-
-```
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-### Heroku
-
-Make sure that you have a Heroku app created for this project. If so, proceed to the next section, otherwise run the following command in your terminal:
-
-```
-heroku create
-```
-
-Optionally add an argument for your application's name after `create`, e.g.
-
-```
-heroku myawesomeapp
-```
-
-### Deploying
-
-After confirming that you have an up to date git repository and a Heroku app created, run the following command to deploy:
-
-```
-yarn deploy
-```
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
+How to run:
+*Download or clone from: https://github.com/rishikesh18/carpoolapp
+*Open terminal and go to correct folder/path
+*Install all dependencies [ npm install, cd client && npm install,]
+*Run the app through the terminal [npm start], make sure you have run mongod in command terminal
+*Use app in the browser to search, post or request ride offers
